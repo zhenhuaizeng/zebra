@@ -17,6 +17,7 @@ $f3 = Base::instance();
 // Define a default route ("Home page" for hello project)
 $f3->route('GET /', function(){
     echo '<h1>Zebra!</h1>';
+    echo '<h2>Giraffe</h2>';
 //    $view = new Template();
 //    echo $view->render('views/Home.html');
 });
