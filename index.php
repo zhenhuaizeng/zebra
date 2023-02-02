@@ -19,6 +19,7 @@ $f3->route('GET /', function(){
     echo '<h1>Zebra!</h1>';
     echo '<h2>Giraffe</h2>';
     echo '<h3>Dog</h3>';
+    echo '<h4>Cat</h4>';
 //    $view = new Template();
 //    echo $view->render('views/Home.html');
 });
