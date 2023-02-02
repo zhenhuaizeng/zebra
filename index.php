@@ -18,6 +18,7 @@ $f3 = Base::instance();
 $f3->route('GET /', function(){
     echo '<h1>Zebra!</h1>';
     echo '<h2>Giraffe</h2>';
+    echo '<h3>Dog</h3>';
 //    $view = new Template();
 //    echo $view->render('views/Home.html');
 });
